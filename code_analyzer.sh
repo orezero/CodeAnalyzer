@@ -9,7 +9,7 @@ echo "Source Code Analyzer for vulnerability assessment"
 rm -fr /var/www/risultati/
 ##Creo una directory per visualizzare i file via browser in locale##
 mkdir /var/www/risultati/
-mkdir /var/www/risultatii/sqli
+mkdir /var/www/risultati/sqli
 mkdir /var/www/risultati/xss
 #########################################
 #####--Creo i files dove andrò a memorizzare i risultati--#####
