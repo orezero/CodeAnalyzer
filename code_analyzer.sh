@@ -2,7 +2,7 @@
 echo "
 ######################################################################################
 #Created by orez - orezero.orezero@gmail.com - orez@bbs.olografix.org                #
-#Freely modifiable and redistributable where you want, when you want and how you want#
+#Liberamente modificabile e ridistribuibile                                          #
 ######################################################################################"
 echo "Source Code Analyzer for vulnerability assessment"
 rm -fr /var/www/risultati/
