@@ -14,23 +14,24 @@ mkdir /var/www/risultati/xss
 #########################################
 #####--Creo i files dove andrò a memorizzare i risultati--#####
 #####--SQL Injection section--#####
-touch /var/www/risultati/sqli/sqli_sql
-touch /var/www/risultati/sqli/sqli_db
-touch /var/www/risultati/sqli/sqli_dbuser
-touch /var/www/risultati/sqli/sqli_dbpassword
-touch /var/www/risultati/sqli/sqli_dbdatabase
-touch /var/www/risultati/sqli/sqli_dbhost
-touch /var/www/risultati/sqli/msql_query
-touch /var/www/risultati/sqli/function_system
+  touch /var/www/risultati/sqli/sqli_sql
+  touch /var/www/risultati/sqli/sqli_db
+  touch /var/www/risultati/sqli/sqli_dbuser
+  touch /var/www/risultati/sqli/sqli_dbpassword
+  touch /var/www/risultati/sqli/sqli_dbdatabase
+  touch /var/www/risultati/sqli/sqli_dbhost
+  touch /var/www/risultati/sqli/msql_query
+  touch /var/www/risultati/sqli/function_system
 #####--XSS section--#####
-touch /var/www/risultati/xss/xss_echo
-touch /var/www/risultati/xss/xss_get
+  touch /var/www/risultati/xss/xss_echo
+  touch /var/www/risultati/xss/xss_get
 echo "##############################################################################"
 echo "Inserisci il  percorso dove effettuare la ricerca delle SQL Injection"
 read SQLi
 echo "##############################################################################"
 echo "Iserisci il percorso dove effettuare le ricerche degli XSS"
 read XSS
+#### - Iniziamo a scremare il contenuto dei sorgenti - ####
 grep -n -r '$sql_' $SQLi >> /var/www/risultati/sqli/sqli_sql
 grep -n -r '$db' $SQLi >> /var/www/risultati/sqli/sqli_db
 grep -n -r '$dbuser' $SQLi >> /var/www/risultati/sqli/sqli_dbuser
