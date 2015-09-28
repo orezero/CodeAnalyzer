@@ -1,8 +1,9 @@
 #!/bin/bash                                                                        
 echo "
 ######################################################################################
-#Created by orez - orezero.orezero@gmail.com - orez@bbs.olografix.org                #
-#Liberamente modificabile e ridistribuibile                                          #
+# Created by orez - orezero.orezero@gmail.com - orez@bbs.olografix.org               #
+# Liberamente modificabile e ridistribuibile                                         #   
+# always run the code as root                                                        #
 ######################################################################################"
 echo "Source Code Analyzer for vulnerability assessment"
 #####--Cancello l'eventuale directory creata quando lancio la prima volta lo script--#####
